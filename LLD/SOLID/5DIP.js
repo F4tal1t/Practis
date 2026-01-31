@@ -54,6 +54,12 @@ function main() {
 
 main();
 
+/* Output:
+Committing changes to Git with message: Initial commit
+Pushing changes to remote Git repository.
+Pulling changes from remote Git repository.
+*/
+
 /*
 IVersionControl Interface: 
 This defines the operations that any version control system should support, like commit, push, and pull. 

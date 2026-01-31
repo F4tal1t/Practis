@@ -47,9 +47,23 @@ function main() {
 
     displayVegetarianMenu(vegMenu);
     displayNonVegetarianMenu(nonVegMenu);
-}
+    displayDrinkMenu(drinkMenu);
 
 main();
+
+/* Output:
+Vegetarian Menu:
+- Vegetable Curry
+- Paneer Tikka
+- Salad
+Non-Vegetarian Menu:
+- Chicken Curry
+- Fish Fry
+- Mutton Biryani
+- Water
+- Soda
+- Juice
+*/
 
 /*
 IVegetarianMenu Interface:
