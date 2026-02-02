@@ -50,7 +50,7 @@ function main() {
     displayDrinkMenu(drinkMenu);
 
 main();
-
+}
 /* Output:
 Vegetarian Menu:
 - Vegetable Curry
