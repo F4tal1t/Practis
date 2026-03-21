@@ -9,7 +9,7 @@ func divide(a, b int) int {
 		}
 	}()
 	if b == 0 {
-		panic("Division by zero")
+		panic("Division by zero") // This will cause a panic, which will be recovered in the deferred function
 	}
 	return a / b
 }

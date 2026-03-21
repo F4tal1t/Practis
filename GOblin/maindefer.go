@@ -9,11 +9,12 @@ func demo(i int) {
 }
 
 func main() {
-	/*
-		fmt.Println("Balls")
-		defer demo(1)
-		demo(2)
-		defer demo(3)
-	*/
+
+	fmt.Println("Balls")
+	defer demo(3)
+	defer demo(1)
+
+	demo(2)
+
 	//go to is skipped
 }

@@ -20,6 +20,7 @@ func main() {
 	for i := 0; i < 5; i++ {
 		wg.Add(1)
 		go increment(&wg)
+		fmt.Println("Counter after increment:", counter)
 	}
 	wg.Wait()
 	fmt.Println("Final Counter:", counter)
